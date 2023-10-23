@@ -1,0 +1,26 @@
+# This is a generated file; do not edit or check into version control.
+cloud_firestore=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_firestore-3.5.1\\
+cloud_firestore_web=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_firestore_web-2.8.10\\
+device_info_plus=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\device_info_plus-7.0.1\\
+firebase_auth=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth-3.11.2\\
+firebase_auth_web=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth_web-4.6.1\\
+firebase_core=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core-1.24.0\\
+firebase_core_web=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core_web-1.7.3\\
+firebase_messaging=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_messaging-13.0.3\\
+firebase_messaging_web=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_messaging_web-3.1.5\\
+flutter_keyboard_visibility=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\flutter_keyboard_visibility-5.3.0\\
+flutter_keyboard_visibility_web=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\flutter_keyboard_visibility_web-2.0.0\\
+flutter_native_splash=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\flutter_native_splash-2.2.5\\
+google_sign_in=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\google_sign_in-5.4.0\\
+google_sign_in_android=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\google_sign_in_android-6.0.1\\
+google_sign_in_ios=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\google_sign_in_ios-5.4.0\\
+google_sign_in_web=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\google_sign_in_web-0.10.2\\
+pasteboard=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\pasteboard-0.2.0\\
+share=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\share-2.0.4\\
+url_launcher=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher-6.1.5\\
+url_launcher_android=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_android-6.0.19\\
+url_launcher_ios=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_ios-6.0.17\\
+url_launcher_linux=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_linux-3.0.1\\
+url_launcher_macos=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_macos-3.0.1\\
+url_launcher_web=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_web-2.0.13\\
+url_launcher_windows=C:\\src\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_windows-3.0.1\\
