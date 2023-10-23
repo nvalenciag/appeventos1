@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "1033986779243",
+    "project_id": "clei-2022",
+    "storage_bucket": "clei-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033986779243:android:9250dbad0d364be8a7692e",
+        "android_client_info": {
+          "package_name": "co.edu.uniquindio.clei2022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033986779243-8l39ol49a1s4ds21pel8anfhehguu0os.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.uniquindio.clei2022",
+            "certificate_hash": "debd595b582fcb906202562fa07d85efa712771d"
+          }
+        },
+        {
+          "client_id": "1033986779243-8oo0mr3cflak5kdfg1gu7snp1h28cba5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.uniquindio.clei2022",
+            "certificate_hash": "03a30d88c57a2521102b38fc283e8651b52d2077"
+          }
+        },
+        {
+          "client_id": "1033986779243-qdnshqa2cp1ijanh427u1pv6oblt5hos.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.uniquindio.clei2022",
+            "certificate_hash": "c53df80c33708643cc44093122c57392ad30cc57"
+          }
+        },
+        {
+          "client_id": "1033986779243-ugph2gvbkqt80hsen19fvv2ojp0a9qbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.uniquindio.clei2022",
+            "certificate_hash": "46e0db03cbe69b6fdaa782e69f10c9d55dc97764"
+          }
+        },
+        {
+          "client_id": "1033986779243-os9sjj8imasn17p5l933evnkiiutgjlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1ocfXg2xcC8xFunBzygYfLvgwRwskEtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033986779243-os9sjj8imasn17p5l933evnkiiutgjlb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
