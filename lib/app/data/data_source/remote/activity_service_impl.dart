@@ -15,7 +15,7 @@ class ActivityServiceImpl implements ActivityService {
   @override
   Future<List<Activity>?> getAllActivities() async {
     Response? response = await activityRest.getAllActivities(
-        userAuth.tokenSession, userAuth.user!.email);
+        "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNyIsImV4cCI6MTY5ODE4MTI1OCwiaWF0IjoxNjk4MDk0ODU4fQ.TupMwLFKyTMZWj0vkm13KVbq7ik86nhqwaJdLiPu93LfPieLYyGp6YkZXl6IDpOyNd9-MKGUv8Vl9deGwJsZhg", "aguileracamilo2929@gmail.com");
     if (response == null) {
       return null;
     }
@@ -29,7 +29,7 @@ class ActivityServiceImpl implements ActivityService {
   Future<List<Activity>?> getAllActivitiesAfter(
       int page, int sizePage, String date,int idEvent) async {
     Response? response = await activityRest.getAllActivitiesAfter(
-        userAuth.tokenSession, userAuth.user!.email, page, sizePage, date,idEvent);
+        "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNyIsImV4cCI6MTY5ODE4MTI1OCwiaWF0IjoxNjk4MDk0ODU4fQ.TupMwLFKyTMZWj0vkm13KVbq7ik86nhqwaJdLiPu93LfPieLYyGp6YkZXl6IDpOyNd9-MKGUv8Vl9deGwJsZhg", "aguileracamilo2929@gmail.com", page, sizePage, date,idEvent);
     if (response == null) {
       return null;
     }

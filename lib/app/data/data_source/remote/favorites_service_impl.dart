@@ -30,7 +30,7 @@ class FavoritesServiceImpl implements FavoritesService {
   @override
   Future<List<int>?> getFavorites() async {
     Response? response = await favoritesRest.getFavorites(
-        userAuth.tokenSession, userAuth.user!.email);
+        "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNyIsImV4cCI6MTY5ODE4MTI1OCwiaWF0IjoxNjk4MDk0ODU4fQ.TupMwLFKyTMZWj0vkm13KVbq7ik86nhqwaJdLiPu93LfPieLYyGp6YkZXl6IDpOyNd9-MKGUv8Vl9deGwJsZhg", "aguileracamilo2929@gmail.com");
     if (response == null) {
       return null;
     }

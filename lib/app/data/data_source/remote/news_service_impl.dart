@@ -17,7 +17,7 @@ class NewsServiceImpl implements NewsService {
   @override
   Future<List<News>?> getNewsRencents(int page, int sizePage,String date,int idEvent) async {
     Response? response = await newsRest.getNewsRecents(
-        userAuth.tokenSession, userAuth.user!.email, page, sizePage,date,idEvent);
+        "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNyIsImV4cCI6MTY5ODE4MTI1OCwiaWF0IjoxNjk4MDk0ODU4fQ.TupMwLFKyTMZWj0vkm13KVbq7ik86nhqwaJdLiPu93LfPieLYyGp6YkZXl6IDpOyNd9-MKGUv8Vl9deGwJsZhg", "aguileracamilo2929@gmail.com", page, sizePage,date,idEvent);
     if (response == null) {
       return null;
     }
@@ -31,7 +31,7 @@ class NewsServiceImpl implements NewsService {
   @override
   Future<List<String>?> getNewsPhotos(int idNews) async {
     Response? response = await newsRest.getNewsPhotos(
-        userAuth.tokenSession, userAuth.user!.email, idNews);
+        "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNyIsImV4cCI6MTY5ODE4MTI1OCwiaWF0IjoxNjk4MDk0ODU4fQ.TupMwLFKyTMZWj0vkm13KVbq7ik86nhqwaJdLiPu93LfPieLYyGp6YkZXl6IDpOyNd9-MKGUv8Vl9deGwJsZhg", "aguileracamilo2929@gmail.com", idNews);
     if (response == null) {
       return null;
     }

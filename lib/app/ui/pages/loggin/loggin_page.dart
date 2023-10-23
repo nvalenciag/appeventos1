@@ -31,7 +31,10 @@ class _LogginPageState extends State<LogginPage> {
     Inyector _inyector = Get.find<Inyector>();
 
     _inyector.userAuth!.checkUserAvailable().then((available) async {
+
       if (available) {
+        print(await _inyector.userAuth!.toString());
+        print("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
         _isAvailable = true;
         await _inyector.userAuth!.validateAuthenticationToken();
         await _inyector.loginProvider(LoginType.values.byName(capitalize(

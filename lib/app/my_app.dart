@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         router.observer,
       ],
       routes: appRoutes,
-      initialRoute: Routes.LOGGIN_PAGE,
+      initialRoute: Routes.INIT,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

@@ -17,8 +17,9 @@ class EventServiceImpl implements EventService {
   Future<List<Event>?> getEventRencents(
       int page, int sizePage, String date) async {
     print("entra al impl");
+    print("datos :"+userAuth.tokenSession);
     Response? response = await eventRest.getEventRecents(
-        userAuth.tokenSession, userAuth.user!.email, page, sizePage, date);
+        "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNyIsImV4cCI6MTY5ODE4MTI1OCwiaWF0IjoxNjk4MDk0ODU4fQ.TupMwLFKyTMZWj0vkm13KVbq7ik86nhqwaJdLiPu93LfPieLYyGp6YkZXl6IDpOyNd9-MKGUv8Vl9deGwJsZhg", "aguileracamilo2929@gmail.com", page, sizePage, date);
     if (response == null) {
       return null;
     }

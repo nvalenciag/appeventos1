@@ -65,7 +65,8 @@ class _ActivityCardState extends State<ActivityCard> {
               Align(
                 alignment: Alignment.bottomRight,
                 child: Row(
-                  children: [
+                  children: [const Icon(Icons.location_on, color: Color(0xFF575756)),
+                  Text(widget.activityData.room.split(" ")[1]),
                     Expanded(child: Container()),
                     const Icon(Icons.watch_later, color: Color(0xFF575756)),
                     Text(
@@ -80,6 +81,11 @@ class _ActivityCardState extends State<ActivityCard> {
             ]),
       ),
     );
+  }
+  String _getRoom(String room){
+
+    return "";
+
   }
 
   BoxDecoration _putColor() {

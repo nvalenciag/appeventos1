@@ -77,7 +77,7 @@ class _GroupTileState extends State<GroupTile> {
 
   _getNamePerson(List<String> groupName) async {
     Inyector inyector = Get.find<Inyector>();
-    final String emailU1 = inyector.userAuth!.user!.email;
+    final String emailU1 = "aguileracamilo2929@gmail.com";
     String email = "";
     if (emailU1 != groupName[1]) {
     

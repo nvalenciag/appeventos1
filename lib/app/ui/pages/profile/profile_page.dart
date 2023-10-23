@@ -35,7 +35,7 @@ class ProfilePage extends StatelessWidget {
 
   Center buildProfileView() {
     Inyector inyector = Get.find<Inyector>();
-    final User user = inyector.userAuth!.user!;
+    final User user = new User(name: "Camilo", email: "aguileracamilo2929@gmail.com", photo: "https://media.gq.com.mx/photos/609c0fdeee4372271f0b9056/1:1/w_2000,h_2000,c_limit/salir%20guapo%20en%20fotos-605380757.jpg", accountCreationDate: DateTime(1));
     return Center(
       child: Column(
         mainAxisSize: MainAxisSize.max,
@@ -47,7 +47,7 @@ class ProfilePage extends StatelessWidget {
           const SizedBox(
             height: 100,
           ),
-          buttonSignOut(inyector.socialAuth!)
+          
         ],
       ),
     );
